@@ -203,7 +203,7 @@ const styles = StyleSheet.create({
   },
   winnerInfo: {
     borderRadius: 8,
-    backgroundColor: '#38CC77',
+    backgroundColor: '#FF336B',
 
     shadowOpacity: 0.1,
   },
