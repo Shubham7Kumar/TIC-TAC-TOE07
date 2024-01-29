@@ -5,11 +5,9 @@ import {
   FlatList,
   Pressable,
   SafeAreaView,
-  ScrollView,
   StatusBar,
   StyleSheet,
   Text,
-  useColorScheme,
   View,
 } from 'react-native';
 
@@ -96,6 +94,7 @@ function App(): React.JSX.Element  {
 
     if (gameState[itemNumber] === 'empty') {
       gameState[itemNumber] = isCross ? 'cross' : 'circle'
+      console.log(itemNumber)
       setIsCross(!isCross)
     }else {
       return Snackbar.show({
