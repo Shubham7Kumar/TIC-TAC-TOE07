@@ -183,10 +183,10 @@ const styles = StyleSheet.create({
     fontWeight: '600',
   },
   playerX: {
-    backgroundColor: '#38CC77',
+    backgroundColor: '#C733FF',
   },
   playerO: {
-    backgroundColor: '#F7CD2E',
+    backgroundColor: '#FF33D1',
   },
   grid: {
     margin: 12,
@@ -198,8 +198,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
 
-    borderWidth: 1,
-    borderColor: '#333',
+    borderWidth: 2,
+    borderColor: '#336BFF',
   },
   winnerInfo: {
     borderRadius: 8,
